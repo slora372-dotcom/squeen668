@@ -128,6 +128,13 @@ img { display: block; max-width: 100%; height: auto; }
 .guide-btns .hbtn { text-align: center; padding: 12px; text-decoration: none; }
 .guide-btns .hbtn.solid { color: #000; }
 
+.seo h3 { font-size: 15px; color: #fff; margin: 14px 0 4px; }
+.table-wrap { overflow-x: auto; margin: 10px 0; }
+.seo table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.seo th { background: var(--gold); color: #000; text-align: left; padding: 8px; }
+.seo td { padding: 8px; border: 1px solid var(--line); vertical-align: top; }
+.seo tbody tr:nth-child(even) td { background: #1b1b1b; }
+
 /* Long sections fold to a preview; collapse.js adds the toggle button. */
 .collapsible { position: relative; max-height: 320px; overflow: hidden; }
 .collapsible:not(.open)::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 90px; background: linear-gradient(rgba(20, 20, 20, 0), var(--panel)); pointer-events: none; }
